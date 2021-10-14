@@ -8,12 +8,13 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <Router>
-      <Navbar />
+      <Header />
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/pageA" component={PageA} />
         <Route path="/pageB" component={PageB} />
       </Switch>
+      <Footer />
     </Router>
   );
 }

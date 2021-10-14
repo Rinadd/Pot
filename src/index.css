@@ -9,7 +9,7 @@ html {
   flex-direction: column;
   min-height: 100vh;
   --tw-text-opacity: 1;
-  color: rgba(75, 85, 99, var(--tw-bg-opacity));
+  color: rgba(75, 85, 99, var(--tw-text-opacity));
   font-size: 0.875rem;
   line-height: 1.25rem;
   font-family: ui-monospace, SFMone-Regular, Menlo, Consolas, "Liberation Mono", "Courier New", monospace;
